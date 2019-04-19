@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import logo from './logo.svg'
+import './App.css'
 import FirestoreCollection from './FirestoreCollection'
 
 class App extends Component {
@@ -21,10 +21,10 @@ class App extends Component {
             Learn React
           </a>
         </header>
-        <FirestoreCollection/>
+        <FirestoreCollection />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
